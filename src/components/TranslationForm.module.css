@@ -1,0 +1,18 @@
+.textToTranslate {
+    height: 10rem;
+    padding: 1rem;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0.625rem;
+    outline: 1px solid hsl( var(--secondary-clr) );
+    resize: none;
+}
+
+.submitBtn {
+    justify-self: start;
+    padding: 0.75em 3em;
+    background-color: hsl( var(--secondary-clr) / .8 );
+    color: #000;
+    border-radius: 0.5rem;
+    outline: 1px solid hsl( var(--secondary-clr) );
+}

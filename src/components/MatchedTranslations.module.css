@@ -1,0 +1,16 @@
+.matchedTranslationsWrapper {
+    padding: 1rem;
+    margin-block-start: 1rem;
+    background-color: hsl( var(--secondary-clr) / .5 );
+    border-radius: 0.625rem;
+}
+
+.matchedTranslationsWrapper h2 {
+    font-size: 1rem;
+    color: hsl( var(--primary-clr) );
+}
+
+.matchedTranslationsWrapper h2,
+.matchedTranslationsWrapper li {
+    margin-block-end: 1rem;
+}
